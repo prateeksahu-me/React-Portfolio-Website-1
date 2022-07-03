@@ -66,7 +66,7 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6 rem;
+    margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
 
@@ -85,6 +85,11 @@
    .about__content p {
     margin: 1rem 0 1.5rem;
    }
+
+   
+   .btn {
+    align-items: center;
+    }
 
 }
 
@@ -107,5 +112,8 @@
   
     .about__content p {
         margin: 1.5rem 0;
+    }
+    .btn {
+        align-items: center;
     }
 }
