@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.png'
+import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -26,16 +26,18 @@ const About = () => {
             </article>
             <article className='about__card'>
                 <FiUsers className='about_icon'/>              
-                <h5>Clients</h5>
-                <small>10+ Worldwide</small>
+                <h5>Projects</h5>
+                <small>5+ Worldwide</small>
             </article>
             <article className='about__card'>
                 <VscFolderLibrary className='about_icon'/>              
-                <h5>Projects</h5>
-                <small>5+ Completed</small>
+                <h5>Awards</h5>
+                <small>1+ Achivements</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ratione, saepe earum rem odio cum maxime non magni reiciendis et error nobis quia nisi cupiditate, corporis magnam voluptatibus dolorum qui.</p>
+          <p>I'm a software engineer focused in React, Redux, Express.js, Node.js and more. I have over 1.3 years of experience in tech with skills in Software development and Quality Assurance.
+</p>
+          <p>I am passionate about creating intuitive, functional, and beautiful software and making quantifiable improvements to a product with each iteration. </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 

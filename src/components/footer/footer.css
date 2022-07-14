@@ -3,6 +3,7 @@ footer {
     padding: 3 rem 0;
     text-align: center;
     font-size: 0.9rem;
+    height: 450px;
     margin-top: 7rem;
 }
 
@@ -50,4 +51,19 @@ footer a {
 .footer__copyright {
     margin-bottom: 4rem;
     color: var(--color-bg);
+}
+
+
+ 
+ /*================== MEDIA QUERIES (SMALL DEVICES) ===================*/
+ 
+ @media screen and (max-width: 600px) {
+    .permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 10 rem;
+    }
 }

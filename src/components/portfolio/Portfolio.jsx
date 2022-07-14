@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -11,44 +11,9 @@ const data = [
   {
     id:1,
     image: IMG1,
-    title:'Crypto Currency Dashboard & Financial Visualization',
-    github:'https://github.com',
-    demo: 'https://prateeksahume'
-  },
-  {
-    id:2,
-    image: IMG1,
-    title:'Crypto Currency Dashboard & Financial Visualization',
-    github:'https://github.com',
-    demo: 'https://prateeksahume'
-  },
-  {
-    id:3,
-    image: IMG1,
-    title:'Crypto Currency Dashboard & Financial Visualization',
-    github:'https://github.com',
-    demo: 'https://prateeksahume'
-  },
-  {
-    id:4,
-    image: IMG1,
-    title:'Crypto Currency Dashboard & Financial Visualization',
-    github:'https://github.com',
-    demo: 'https://prateeksahume'
-  },
-  {
-    id:5,
-    image: IMG1,
-    title:'Crypto Currency Dashboard & Financial Visualization',
-    github:'https://github.com',
-    demo: 'https://prateeksahume'
-  },
-  {
-    id:6,
-    image: IMG1,
-    title:'Crypto Currency Dashboard & Financial Visualization',
-    github:'https://github.com',
-    demo: 'https://prateeksahume'
+    title:'React Portfolio Website | Prateeksahu.me',
+    github:'https://github.com/prateeksahu-in/React-Portfolio-Website-1',
+    demo: 'https://prateeksahu.me'
   }
   
 ]
@@ -71,8 +36,8 @@ const Portfolio = () => {
             </div>
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
-              <a href={github} className='btn'>Github</a>
-              <a href={demo} className='btn btn-primary'>Live Demo</a>
+              <a href={github} className='btn' target="_blank">Github</a>
+              <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
             </div>  
           </article>
           )

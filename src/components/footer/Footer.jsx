@@ -20,19 +20,17 @@ const Footer = () => {
 
       
       <div className='footer__socials'>
-        <a href="https://facebook.com"><FaFacebookF/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
-        <a href="https://twitter.com"><IoLogoTwitter/></a>
+        <a href="https://m.me/prateek.sahu.167/" target="_blank"><FaFacebookF/></a>
+        <a href="https://instagram.com/prateeksahu.me" target="_blank"><FiInstagram/></a>
+        <a href="https://twitter.com" target="_blank"><IoLogoTwitter/></a>
 
       </div>
 
       <div className="footer__copyright">
         <small>&copy; PrateekSahu.me All rights reserved</small>
+
       </div>
-
-
     </footer>
-
   )
 }
 
