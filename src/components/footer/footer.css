@@ -3,7 +3,6 @@ footer {
     padding: 3 rem 0;
     text-align: center;
     font-size: 0.9rem;
-    height: 450px;
     margin-top: 7rem;
 }
 
@@ -49,8 +48,9 @@ footer a {
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
     color: var(--color-bg);
+    background: var(--color-primary);
 }
 
 
@@ -63,7 +63,8 @@ footer a {
         gap: 1.5rem;
     }
 
-    .footer__socials {
-        margin-bottom: 10 rem;
+    .footer__copyright {
+        padding-bottom: 10rem;
+        background: var(--color-primary);
     }
 }
