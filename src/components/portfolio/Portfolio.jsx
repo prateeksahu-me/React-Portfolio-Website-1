@@ -12,7 +12,7 @@ const data = [
     id:1,
     image: IMG1,
     title:'React Portfolio Website | Prateeksahu.me',
-    github:'https://github.com/prateeksahu-in/React-Portfolio-Website-1',
+    github:'https://github.com/prateeksahu-me/React-Portfolio-Website-1',
     demo: 'https://prateeksahu.me'
   }
   
@@ -24,7 +24,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {
