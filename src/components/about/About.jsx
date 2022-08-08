@@ -35,7 +35,7 @@ const About = () => {
                 <small>1+ Achivements</small>
             </article>
           </div>
-          <p>I'm a software engineer focused in React, Redux, Express.js, Node.js and more. I have over 1.3 years of experience in tech with skills in Software development and Quality Assurance.
+          <p>I'm a software engineer focused in React, Redux, Express.js, Java and more. I have over 1.5 years of experience in tech with skills in Software development and Quality Assurance.
 </p>
           <p>I am passionate about creating intuitive, functional, and beautiful software and making quantifiable improvements to a product with each iteration. </p>
 

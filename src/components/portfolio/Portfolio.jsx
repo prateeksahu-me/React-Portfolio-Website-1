@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/classesforgermanlanguage.in.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
@@ -14,7 +14,15 @@ const data = [
     title:'React Portfolio Website | Prateeksahu.me',
     github:'https://github.com/prateeksahu-me/React-Portfolio-Website-1',
     demo: 'https://prateeksahu.me'
+  },
+  {
+    id:2,
+    image: IMG2,
+    title:'Classes for German Language | German courses',
+    github:'#',
+    demo: 'https://www.classesforgermanlanguage.in/'
   }
+  
   
 ]
 
